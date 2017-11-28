@@ -1,0 +1,19 @@
+.first-class + .third-class {
+    background: red;
+}
+
+.first-class > .second-class {
+    background: yellow;
+}
+
+.first-class ~ .fifth-class {
+    background: black;
+}
+
+.top-class .fifth-class {
+    background: green;
+}
+
+.first-class .fifth-class {
+    background: blue;
+}
