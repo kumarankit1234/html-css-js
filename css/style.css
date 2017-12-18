@@ -10,10 +10,36 @@
     background: black;
 }
 
-.top-class .fifth-class {
-    background: green;
-}
-
 .first-class .fifth-class {
     background: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+/*.third-class .fifth-class:nth-child(2) {*/
+/*background: pink;*/
+/*}*/
+
+.test-white-space {
+    white-space: nowrap;
+}
+
+.animation p {
+    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-name: slidein;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
 }
